@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unique Designs All Designs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body {
+  background-color: gray;
+}
+</style>
+
+<!--Internal code for text Slideshow-->
+
+<style>
+.mySlides {display:none;}
+</style>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+	
+<!--Nav Bar-->
+
+  <div class="w3-bar w3-gray">
+
+  <a href="indexmwp.html" class="w3-bar-item w3-button">Home</a>
+  <a href="latest.html" class="w3-bar-item w3-button">Latest Designs</a>
+  <a href="Sale.html" class="w3-bar-item w3-button">Sale</a>
+  <a href="alldesigns.html" class="w3-bar-item w3-button">All Designs</a>
+  <a href="appointment.html" class="w3-bar-item w3-button">Appointment</a>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+  <input type="text" class="w3-bar-item w3-input w3-right w3-white w3-mobile" placeholder="Search..">
+    <button class="w3-bar-item w3-button w3-gray w3-right w3-mobile">Go</button>
+<div class="mySlides w3-container w3-xlarge w3-red w3-card-4">
+    <p><span class="w3-tag w3-yellow">ITEMS AS LOW AS $24</span>
+    <p>40% DISCOUNT OFF ALL PIECES ON OUR SALE PAGE!</p>
+    <p>DON'T MISS OUT !!!</p>
+  </div>
+<div class="mySlides w3-container w3-xlarge w3-green w3-card-4">
+    <p><span class="w3-tag w3-yellow">We Have A BIG CLAEARANCE SALE!</span>
+    <p>Check out our SALE PAGE!</p>
+    <p>For Items as Low as $24</p>
+  </div>
+
+</div>
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+<!--Images For Gallery-->
+<br>
+<h2><strong>SEE BELOW AN IMAGE GALLERY OF ALL THE PIECES WE CREATED.</h2></strong>
+<h4>From a Wide Range Of Dresses, Skirts, Tops, Pants, Office Attire, Religious Wear and Much More !!</h4>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\54.jpg">
+      <img src="myimages\54.jpg" alt="Office Jacket" width="600" height="400">
+    </a>
+    <div class="desc">Navel Breaker Sweater Jacket $180</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\51.jpg">
+      <img src="myimages\51.jpg" alt="Summer Dress" width="600" height="400">
+    </a>
+    <div class="desc">Summer Dress $150</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\57.jpg">
+      <img src="myimages\57.jpg" alt="Pants Suit" width="600" height="400">
+    </a>
+    <div class="desc">Electric Halterback Pants Suit $170</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\58.jpg">
+      <img src="myimages\58.jpg" alt="Office Jacket" width="600" height="400">
+    </a>
+    <div class="desc">Islamic Wear $180</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\1 (2).jpg">
+      <img src="myimages\1 (2).jpg" alt="Fur Dress" width="600" height="400">
+    </a>
+    <div class="desc">Blue Fur Short Dress $180
+    </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\31.jpg">
+      <img src="myimages\31.jpg" alt="Leggings Suit" width="600" height="400">
+    </a>
+    <div class="desc">Long Elegant Dress $150</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\4 (2).jpg">
+      <img src="myimages\4 (2).jpg" alt="Strap Dress" width="600" height="400">
+    </a>
+    <div class="desc">Summer Strap Dress $120</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="myimages\5 (2).jpg">
+      <img src="myimages\5 (2).jpg" alt="Skirt Suit" width="600" height="400">
+    </a>
+    <div class="desc">Floral Tube Skirt Suit $120 each</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<br>
+
+<!--The Footer-->
+
+<div class="w3-container w3-gray">
+  <br>
+  <a href="Contact.html" p><button class="w3-button w3-black w3-medium">Contact Us</button></p>
+<a href="indexmwp.html" p><button class="w3-button w3-black w3-medium">Home</button></p>
+<a href="latest.html" p><button class="w3-button w3-black w3-medium">Latest Designs</button></p>
+<a href="sale.html" p><button class="w3-button w3-black w3-medium">Sale</button></p>
+<a href="appointment.html" p><button class="w3-button w3-black w3-medium">Meet Our Designer</button></p>
+
+<h4><p align="center">&copy; 2024 Unique Designs.</p></h4>
+
+</div>
+
+
+
+
+</body>
+</html>
